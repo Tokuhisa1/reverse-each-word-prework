@@ -6,7 +6,7 @@ def reverse_each_word(string) #Take in a string
   #   # Reverse each word [desctrucively]!
   #   word.reverse!
   # end
-  # Iterate over the array
+  # Iterate over the array using collect
   words.collect { |word| word.reverse! } # Reverse each word [desctrucively]!
   # Join the words into a new string
   words.join(' ')
